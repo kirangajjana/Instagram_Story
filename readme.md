@@ -1,2 +1,3 @@
 # instagram Story Feature using HTML,CSS,Java Script
-# updates will added soon
+# Demo
+- you can find the demo -> [here](https://kirangajjana.github.io/Instagram_Story/)
