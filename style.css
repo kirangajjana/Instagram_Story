@@ -22,7 +22,7 @@ body{
     border-width: 1px;
     border-color: black;
     display:flex;
-    justify-content: space-around;
+    overflow: hidden;
 }
 #topdiv{
     height:20%;
@@ -32,7 +32,12 @@ body{
     border-color: black;
     padding: 20px;
     border-bottom: 1px solid rgba(15, 11, 11, 0.087);
-    flex-wrap: wrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#topdiv::-webkit-scrollbar{
+    display: none;
 }
 .storydiv{
     height:80px;
@@ -40,7 +45,7 @@ body{
     background-color: antiquewhite;
     border-radius: 50px;
     overflow: hidden;
-    display: inline-block;
+    display:inline-block;
     
 }
 .img1{
