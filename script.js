@@ -1,22 +1,16 @@
-let a=document.querySelector('#img1')
-let c=document.querySelector('#img2')
-let d=document.querySelector('#img3')
-let e=document.querySelector('#img4')
-let f=document.querySelector('#img5')
-let g=document.querySelector('#img6')
-let h=document.querySelector('#img7')
-
-
-
-
-
-
+let a=document.querySelector('#img1');
+let c=document.querySelector('#img2');
+let d=document.querySelector('#img3');
+let e=document.querySelector('#img4');
+let f=document.querySelector('#img5');
+let g=document.querySelector('#img6');
+let h=document.querySelector('#img7');
+let b=document.querySelector('#maindiv');
 
 
 
 
 //#####################################################
-let b=document.querySelector('#maindiv')
 console.log(a)
 a.addEventListener('mouseover', function() {
     b.style.backgroundImage = 'url("images/story2.jpg")'; // Set background image
@@ -108,3 +102,5 @@ h.addEventListener('mouseover', function() {
         b.style.backgroundColor='white'; // Change background color after 2 seconds
     }, 2000);
 });
+
+
