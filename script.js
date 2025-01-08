@@ -22,7 +22,7 @@ a.addEventListener('mouseover', function() {
         console.log('time triggered')
         b.style.backgroundImage = '';
         b.style.backgroundColor='white'; // Change background color after 2 seconds
-    }, 2000);
+    }, 3000);
 });
 //############################
 c.addEventListener('mouseover', function() {
@@ -35,7 +35,7 @@ c.addEventListener('mouseover', function() {
         console.log('time triggered')
         b.style.backgroundImage = '';
         b.style.backgroundColor='white'; // Change background color after 2 seconds
-    }, 2000);
+    }, 3000);
 });
 //########################################
 d.addEventListener('mouseover', function() {
@@ -48,7 +48,7 @@ d.addEventListener('mouseover', function() {
         console.log('time triggered')
         b.style.backgroundImage = '';
         b.style.backgroundColor='white'; // Change background color after 2 seconds
-    }, 2000);
+    }, 3000);
 });
 //################################
 e.addEventListener('mouseover', function() {
@@ -61,7 +61,7 @@ e.addEventListener('mouseover', function() {
         console.log('time triggered')
         b.style.backgroundImage = '';
         b.style.backgroundColor='white'; // Change background color after 2 seconds
-    }, 2000);
+    }, 3000);
 });
 //################################################
 f.addEventListener('mouseover', function() {
@@ -74,7 +74,7 @@ f.addEventListener('mouseover', function() {
         console.log('time triggered')
         b.style.backgroundImage = '';
         b.style.backgroundColor='white'; // Change background color after 2 seconds
-    }, 2000);
+    }, 3000);
 });
 //##############################################
 g.addEventListener('mouseover', function() {
@@ -87,7 +87,7 @@ g.addEventListener('mouseover', function() {
         console.log('time triggered')
         b.style.backgroundImage = '';
         b.style.backgroundColor='white'; // Change background color after 2 seconds
-    }, 2000);
+    }, 3000);
 });
 //############################################
 h.addEventListener('mouseover', function() {
